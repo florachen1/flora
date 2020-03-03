@@ -1,0 +1,4 @@
+2020-02-12 13:38:36 654 refund_error : 已經被refund [refundmtcode: 4345234534534, 遊戲商: SA]
+2020-02-12 13:39:26 645 refund_error : 已經被refund [refundmtcode: 4345234534534, 遊戲商: SA]
+2020-02-12 13:45:57 284 refund_error : 已經被refund [refundmtcode: 4345234534534, 遊戲商: SA]
+2020-02-12 13:46:44 483 refund_error : 已經被refund [refundmtcode: 4345234534534, 遊戲商: SA]

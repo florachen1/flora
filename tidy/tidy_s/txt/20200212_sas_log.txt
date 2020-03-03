@@ -1,0 +1,593 @@
+2020-02-12 09:05:28 170 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmFRS5x9GDXgZDkGRK9qdOJ8gmyjwfpMQe55N3Ue6rZdCdjLwh4dUURKhO7d9EfWWRJRLbLxG7mtDqxim8BQBZI4cSv7SAnBz9ipATGw7NpSVSLW1NWLNz7F6OopFhFRHiZVjv74znMm0P0iIV2U%2bTJsRHiUwwV60DxGAZ%2bHaTyWWvHXn%2fkbXnBLDqCpRCUKVain3Ong1%2fiHEe0yu4hdJEFj6f7rx6mbMuvYki5PNB4U34pgnftYlB%2f96Z6QjPf5ASs%3d
+2020-02-12 09:05:28 175 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"100.00","txnid":"220905","gametype":"bac","platform":"0","timestamp":"2020-02-11 17:56:43.659","gameid":"14904411467776","hostid":"619","ip":"59.125.102.81","betdetails":"{\"details\":[{\"type\":1,\"amount\":100}]}"}
+2020-02-12 09:05:40 834 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"100.00","txnid":"220905","gametype":"bac","platform":"0","timestamp":"2020-02-11 17:56:43.659","gameid":"14904411467776","hostid":"619","ip":"59.125.102.81","betdetails":"{\"details\":[{\"type\":1,\"amount\":100}]}"}
+2020-02-12 09:05:43 122 PlaceBet_end txnid: 220905
+2020-02-12 09:05:49 162 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmFRS5x9GDXgZDkGRK9qdOJ8gmyjwfpMQe55N3Ue6rZdCdjLwh4dUURKhO7d9EfWWRJRLbLxG7mtDqxim8BQBZI4cSv7SAnBz9ipATGw7NpSVSLW1NWLNz7F6OopFhFRHiZVjv74znMm0P0iIV2U%2bTJsRHiUwwV60DxGAZ%2bHaTyWWvHXn%2fkbXnBLDqCpRCUKVain3Ong1%2fiHEe0yu4hdJEFj6f7rx6mbMuvYki5PNB4U34pgnftYlB%2f96Z6QjPf5ASs%3d
+2020-02-12 09:05:49 166 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"100.00","txnid":"220905","gametype":"bac","platform":"0","timestamp":"2020-02-11 17:56:43.659","gameid":"14904411467776","hostid":"619","ip":"59.125.102.81","betdetails":"{\"details\":[{\"type\":1,\"amount\":100}]}"}
+2020-02-12 09:17:22 741 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 09:17:22 954 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>7D20C69553B24853B42A0391DF7D794E</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 09:19:21 839 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 09:19:22 041 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>026ADB21667D68D7A81C9B65E02BA176</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 09:40:49 356 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 09:47:26 662 GetUserBalance_start space run: 
+2020-02-12 09:47:27 888 getparams_start data: MDQGx7yYdma80Xzm7LQfAyiMfFlwTdl2%2FI3NoqOlti5ujzNc33Vjtw%3D%3D
+2020-02-12 09:47:27 910 getparams_end jsondata: {"username":"660bdl0test","currency":"CNY"}
+2020-02-12 09:47:27 918 GetUserBalance_start postdata: {"username":"660bdl0test","currency":"CNY"}
+2020-02-12 09:47:34 228 balance_start account: test, json_data: {"account":"test","agent":"66","gamer_name":"SA"}
+2020-02-12 09:49:56 289 GetUserBalance_start space run: 
+2020-02-12 09:49:56 591 getparams_start data: MDQGx7yYdma80Xzm7LQfAyiMfFlwTdl2%2FI3NoqOlti5ujzNc33Vjtw%3D%3D
+2020-02-12 09:49:56 601 getparams_end jsondata: {"username":"660bdl0test","currency":"CNY"}
+2020-02-12 09:49:56 609 GetUserBalance_start postdata: {"username":"660bdl0test","currency":"CNY"}
+2020-02-12 09:50:02 294 balance_start account: test, json_data: {"account":"test","agent":"66","gamer_name":"SA"}
+2020-02-12 09:52:02 846 GetUserBalance_start space run: 
+2020-02-12 09:52:03 500 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 09:52:03 506 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:52:03 512 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:52:08 509 balance_start account: test, json_data: {"account":"test","agent":"1","gamer_name":"SA"}
+2020-02-12 09:53:40 831 GetUserBalance_start space run: 
+2020-02-12 09:53:41 095 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 09:53:41 103 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:53:41 112 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:56:02 383 GetUserBalance_start space run: 
+2020-02-12 09:56:02 816 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 09:56:02 835 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:56:02 844 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:57:16 816 GetUserBalance_start space run: 
+2020-02-12 09:57:17 583 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 09:57:17 594 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:57:17 602 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:58:30 167 GetUserBalance_start space run: 
+2020-02-12 09:58:30 411 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 09:58:30 417 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 09:58:30 423 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:00:06 980 GetUserBalance_start space run: 
+2020-02-12 10:00:11 271 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 10:00:11 284 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:00:11 293 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:01:00 172 GetUserBalance_start space run: 
+2020-02-12 10:01:00 500 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 10:01:00 509 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:01:00 514 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:01:13 639 balance_start account: test, json_data: {"account":"test","agent":"1","gamer_name":"SA"}
+2020-02-12 10:01:34 648 GetUserBalance_start space run: 
+2020-02-12 10:01:35 128 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 10:01:35 142 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:01:35 150 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:02:13 950 GetUserBalance_start space run: 
+2020-02-12 10:02:14 188 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 10:02:14 194 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:02:14 200 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:02:31 054 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 10:03:26 095 GetUserBalance_start space run: 
+2020-02-12 10:03:26 559 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmHIA%2BlJx9tqYg%3D%3D
+2020-02-12 10:03:26 573 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:03:26 581 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 10:03:32 144 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 10:04:08 241 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 10:04:25 623 GetUserBalance_end account: 10bdl0test
+2020-02-12 10:10:35 862 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 10:10:35 875 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:11:04 076 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 10:11:04 082 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:11:05 309 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:12:02 932 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 10:12:02 938 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:12:03 125 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:12:32 842 bet_start jsondata: {"gamer_name":"SA","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}, json_data: {"gamer_name":"SA","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:13:03 052 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 10:13:03 059 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:13:03 262 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:13:10 083 bet_start jsondata: {"gamer_name":"SA","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}, json_data: {"gamer_name":"SA","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:13:54 805 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 10:13:54 811 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:13:55 117 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:13:59 516 bet_start jsondata: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:15:42 677 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 10:15:42 688 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:15:43 257 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 10:15:54 879 bet_start jsondata: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:16:25 151 bet_end respond_data: {"currency":"CNY","errorCode":["1","成功"],"after_money":"310","before_money":"335"}, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:16:50 969 PlaceBet_end account: 10bdl0test
+2020-02-12 10:27:06 750 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BEAutlVynPSYvt%2F1LEj0w44rsyeLiEYL0iJOd%2FZ8ZW0qZvaai6p4ZwF1h%2B%2BHuYEzouj%2BJCg%2F8xe6NwE2KNwQZkbfZ7vxedLWKMlMMN21hwJbYd7ue9PoFl3Nt4dHAxGbOprU3nMh2dfXZJ38BSXsHGc%2BnZK6y%2B%2FFUQkw8DxE5to4%3D
+2020-02-12 10:27:06 763 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"843828125323","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:27:10 313 PlayerWin_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"843828125323","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:27:16 912 PlayerWin_請求mid txnid: 843828125323
+2020-02-12 10:27:35 611 endround_start account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"20.00","currency":"CNY","mtcode":"843828125323","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:27:49 086 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BEAutlVynPSYvt%2F1LEj0w44rsyeLiEYL0iJOd%2FZ8ZW0qZvaai6p4ZwF1h%2B%2BHuYEzouj%2BJCg%2F8xe6NwE2KNwQZkbfZ7vxedLWKMlMMN21hwJbYd7ue9PoFl3Nt4dHAxGbOprU3nMh2dfXZJ38BSXsHGc%2BnZK6y%2B%2FFUQkw8DxE5to4%3D
+2020-02-12 10:27:49 096 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"843828125323","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:27:49 568 PlayerWin_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"843828125323","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:27:50 911 PlayerWin_請求mid txnid: 843828125323
+2020-02-12 10:27:55 198 endround_start account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"20.00","currency":"CNY","mtcode":"843828125323","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:28:56 545 endround_end account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"20.00","currency":"CNY","mtcode":"843828125323","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:29:43 900 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BEAutlVynPSYvt%2F1LEj0w44rsyeLiEYL0iJOd%2FZ8ZW0qZvaai6p4ZwF1h%2B%2BHuYEzouj%2BJCg%2F8xe6NwE2KNwQZkbfZ7vxedLWKMlMMN21hwJbYd7ue9PoFl3Nt4dHAxGbOprU3nMh2dfXZJ38BSXsHGc%2BnZK6y%2B%2FFUQkw8DxE5to4%3D
+2020-02-12 10:29:43 907 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"843828125323","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:29:44 245 PlayerWin_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"843828125323","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:29:44 569 PlayerWin_請求mid txnid: 843828125323
+2020-02-12 10:29:47 607 endround_start account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"20.00","currency":"CNY","mtcode":"843828125323","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:29:48 679 endround_end account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"20.00","currency":"CNY","mtcode":"843828125323","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:29:48 705 PlayerWin_收到mid txnid: 843828125323
+2020-02-12 10:30:12 264 PlayerWin_end result: {"username":"10bdl0test","amount":350,"currency":"CNY","errorCode":0}
+2020-02-12 10:31:30 005 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmGbln0%2BBpjXR18NjrXdxkIirDJt9tzmY7bqWrEakdD2cjHS3hGth7J1TCGTKjk3eyre6X%2F%2Bst%2FYHswT%2FZT2MeMHLs8K0uCHrW20KTaU%2Bv27mXE1OYIKP%2BKjvi9stMKDnaoPiB6UUF0y%2B66%2FFYvdrkyj5m7OrmoqNkM%3D
+2020-02-12 10:31:30 010 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","txnid":"8438234356625","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","gameid":"133849980"}
+2020-02-12 10:31:31 133 PlayerLost_start postdata: {"username":"10bdl0test","currency":"CNY","txnid":"8438234356625","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","gameid":"133849980"}
+2020-02-12 10:31:31 139 PlayerLost_end txnid: 8438234356625
+2020-02-12 10:33:39 749 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmGbln0%2BBpjXR18NjrXdxkIirDJt9tzmY7bqWrEakdD2cjHS3hGth7J1TCGTKjk3eyre6X%2F%2Bst%2FYHswT%2FZT2MeMHLs8K0uCHrW20KTaU%2Bv27mXE1OYIKP%2BKjvi9stMKDnaoBDwGCfTfK6TXhYacpOZmUMRFc3j4%2Bd9%2FEYazRRkA6MQ%3D%3D
+2020-02-12 10:33:39 755 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","txnid":"8438234356625","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:33:42 639 PlayerLost_start postdata: {"username":"10bdl0test","currency":"CNY","txnid":"8438234356625","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","Payouttime":"2018-02-03 12:34:56","hostid":"123","gameid":"133849980"}
+2020-02-12 10:33:47 183 PlayerLost_請求mid txnid: 8438234356625
+2020-02-12 10:33:52 518 endround_start account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"0","currency":"CNY","mtcode":"8438234356625","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:33:53 577 endround_end account: test, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"0","currency":"CNY","mtcode":"8438234356625","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 10:33:53 607 PlayerLost_收到mid txnid: 8438234356625
+2020-02-12 10:34:12 728 PlayerLost_end result: {"username":"10bdl0test","amount":350,"currency":"CNY","errorCode":0}
+2020-02-12 10:39:10 393 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 10:39:10 403 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:39:10 411 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:39:36 915 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 10:39:36 922 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:39:36 929 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:39:48 263 refund_start mtcode: 843828123434
+2020-02-12 10:42:08 545 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 10:42:08 565 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:42:08 574 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:42:15 872 refund_start mtcode: 843828123434
+2020-02-12 10:44:20 808 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 10:44:20 823 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:44:20 831 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 10:44:27 993 refund_start mtcode: 843828123434
+2020-02-12 11:00:06 086 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 11:00:06 095 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 11:00:06 101 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 11:00:23 248 refund_start mtcode: 843828123434
+2020-02-12 11:02:48 368 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZDJPW2TLWLvwXxJ2sMrNIFbTJYBlJPjirnDZEFeejq0byQf6Ql7FfPeoi16hLnG6cXPvJBuTa5H8hdbPVnQpNPvnSQ%2FnjEN0czxTiutOfuziCCALho4D3n%2Fnowp8SjEyhtxyB6w%2FSKARzZ%2BeTcAMp%2BsXAPuFm%2BZwpcIMT5L%2FS7Dl9iGdYGaHd3H1oLieG%2FrgG0Wfu58BJmwZTz8n3BWZoqd14U9fmNzUsUC7l3OiA8c2RsfiqvHmSkrwLjs4YvmMCa40mQAiGHU2EusGy4IlTbjtkFItmoyl1OK0t4t42vVmOUWuaaoNKy3WO6dpfTaciB8LJDhm1q5lnDqvSqmuHA8%3D
+2020-02-12 11:02:48 381 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 11:02:48 390 PlaceBet_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"25.00","txnid":"843828123434","timestamp":"2019-10-25 12:34:56.789","ip":"121.122.123.124","gametype":"bac","platform":"0","hostid":"601","gameid":"133849980","betdetails":"{“details”:[{“type”:1,”amount”:5},{“type”:2,”amount”:10},{“type”:41,”amount”:10}]}"}
+2020-02-12 11:02:48 825 bet_start jsondata: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 11:02:48 992 bet_end respond_data: {"currency":"CNY","errorCode":["1","成功"],"after_money":"325","before_money":"350"}, json_data: {"gamer_name":"SA","wtoken":"","channelId":"","accountId":"test","gameType":"bac","roundId":"133849980","amount":"25.00","currency":"CNY","mtcode":"843828123434","eventTime":"2019-10-25T12:34:56.789","agent":"agent09","backend":"918kiss"}
+2020-02-12 11:02:49 025 PlaceBet_end account: 10bdl0test
+2020-02-12 11:03:24 603 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 11:03:24 620 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 11:03:24 628 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 11:03:35 474 refund_start mtcode: 843828123434
+2020-02-12 13:34:18 206 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:34:18 222 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:34:18 229 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:34:25 876 refund_start mtcode: 843828123434
+2020-02-12 13:35:01 460 refund_end mtcode: 843828123434
+2020-02-12 13:35:17 932 PlaceBetCancel_end result: {"username":"10bdl0test","amount":350,"currency":"CNY","errorCode":0,"returnTime":"2020-02-12T13:35:00+08:00"}
+2020-02-12 13:36:51 097 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:36:51 115 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:36:51 122 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:36:51 786 refund_start mtcode: 843828123434
+2020-02-12 13:36:54 165 refund_end mtcode: 843828123434
+2020-02-12 13:36:54 203 PlaceBetCancel_end result: {"username":"10bdl0test","amount":0,"currency":null,"errorCode":null,"returnTime":null}
+2020-02-12 13:37:08 082 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:37:08 090 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:37:08 097 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:37:17 066 refund_start mtcode: 843828123434
+2020-02-12 13:38:31 627 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:38:31 636 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:38:31 641 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:38:36 044 refund_start mtcode: 843828123434
+2020-02-12 13:38:36 664 refund_end mtcode: 843828123434
+2020-02-12 13:39:23 137 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:39:23 143 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:39:23 148 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:39:26 101 refund_start mtcode: 843828123434
+2020-02-12 13:39:26 652 refund_end mtcode: 843828123434
+2020-02-12 13:45:52 545 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:45:52 552 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:45:52 559 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:45:56 555 refund_start mtcode: 843828123434
+2020-02-12 13:45:57 289 refund_end mtcode: 843828123434
+2020-02-12 13:46:05 708 PlaceBetCancel_end result: {"username":"10bdl0test","amount":0,"currency":"","errorCode":1005,"returnTime":"2020-02-12T13:45:57+08:00"}
+2020-02-12 13:46:43 980 getparams_start data: MDQGx7yYdmYCEr3JM0%2FfW2WpFhjAzQi5VfObxQo%2BCmFRS5x9GDXgZMRW5O99cAN%2BhGaXeE4xFlEiVzo%2BzlJlXgIyqh0aDULx0yDmNVEcgmx7xYfWt7fgFcD78YYh6PFXuVAuzPHPffo4FVMeiykkCoM44zZRvjJh3wcFsprF%2BImxPvTkW3KxYMcbx1TeBJ9kuWafu%2F%2B9SED6emMnvNjYAQ%3D%3D
+2020-02-12 13:46:43 990 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:46:43 998 PlaceBetCancel_start postdata: {"username":"10bdl0test","currency":"CNY","amount":"20.00","txnid":"4345234534534","timestamp":"2019-10-25 12:34:56.789","gametype":"bac","gameid":"133849980","txn_reverse_id":"843828123434"}
+2020-02-12 13:46:44 464 refund_start mtcode: 843828123434
+2020-02-12 13:46:44 489 refund_end mtcode: 843828123434
+2020-02-12 13:46:44 506 PlaceBetCancel_end result: {"username":"10bdl0test","amount":0,"currency":"CNY","errorCode":1005,"returnTime":"2020-02-12T13:46:44+08:00"}
+2020-02-12 13:48:56 681 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 13:48:56 870 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>45B37E1FD90B65B03730437B35AC5403</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 13:51:20 964 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 13:51:21 179 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>806434F61EF5A02666823148E0A811B1</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 13:52:58 510 GetUserBalance_start space run: 
+2020-02-12 13:52:58 964 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 13:52:58 978 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 13:52:58 990 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 13:53:05 546 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 13:53:20 420 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 13:54:01 863 GetUserBalance_start space run: 
+2020-02-12 13:54:01 870 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 13:54:01 876 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 13:54:01 880 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 13:54:02 302 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 13:54:02 321 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 13:54:02 339 GetUserBalance_end account: 10bdl0test
+2020-02-12 14:01:36 530 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:01:36 923 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>2938E96E85C64B15D4953FAA60F0BBF4</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:05:23 436 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:05:23 633 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>D01ABD08F0291D4CE1BA0B801B79592B</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:08:58 298 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:08:58 490 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>7A2477D4D788AB0B3586EDA63627804E</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:12:45 956 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:12:46 210 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>A40E31A87DC7590146ED342FC72F5B4E</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:14:23 508 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:14:23 760 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>1BD9CFF20A688297C2C4D56E2E7AB411</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:17:25 317 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:17:25 539 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>A6F5AF1F5B394E9BAF2E4B8338774071</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:18:35 175 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:18:35 428 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>D8C19CD65104FC19616C50BE5970D2AA</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:22:14 143 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:22:14 455 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>4FE6E19BFDDB8CFDA8EB00D69EDA46E4</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:23:27 089 GetUserBalance_start space run: 
+2020-02-12 14:23:27 455 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 14:23:27 467 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 14:23:27 476 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 14:23:32 176 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 14:23:35 001 balance_start balance: 6000
+2020-02-12 14:23:35 015 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 14:23:35 037 GetUserBalance_end res_balance: 6000
+2020-02-12 14:24:04 575 GetUserBalance_end respond_balance: 6000
+2020-02-12 14:24:14 170 GetUserBalance_end account: 10bdl0test
+2020-02-12 14:24:16 974 GetUserBalance_end aa: <amount>6000</amount>
+2020-02-12 14:35:23 357 launch_start jsondata: {"account":"test1","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:35:23 590 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>46D54F401271F9E3308AD85E39285940</Token>
+  <DisplayName>10bdl0test1@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:38:30 431 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:38:30 624 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>FBCD901846177B38390281875A678CE6</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:41:29 779 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:41:29 982 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>957E0CCD6C1ADDA3CBD4F0F3F86FEE22</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:43:28 250 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:43:28 468 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>1EBA9D47EC526D608D13DE65A2702082</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:45:51 406 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:45:51 603 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>BAE80844F7ECFB8C39AB466499DB14A3</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:49:30 369 GetUserBalance_start space run: 
+2020-02-12 14:49:30 383 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 14:49:30 393 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 14:49:30 401 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 14:49:30 835 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 14:49:30 868 balance_start balance: 33333
+2020-02-12 14:49:30 876 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 14:49:30 890 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"33333","returnTime":"2020-02-12T14:49:30+08:00"}
+2020-02-12 14:49:30 895 GetUserBalance_end res_balance: 33333
+2020-02-12 14:49:30 900 GetUserBalance_end respond_balance: 33333
+2020-02-12 14:49:30 905 GetUserBalance_end ss: {"username":"10bdl0test","balance":33333,"currency":"CNY","errorCode":0}
+2020-02-12 14:49:30 910 GetUserBalance_end account: 10bdl0test
+2020-02-12 14:49:30 915 GetUserBalance_end aa: <amount>33333</amount>
+2020-02-12 14:55:28 546 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:55:28 744 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>88F8A3F48D9670B0BA1818A70621A5CF</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:56:15 479 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:56:15 688 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>75D617922E22EC1E9DEFB0B01BCD2644</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 14:58:19 362 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 14:58:19 765 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>1CA17EA23C72DDF764797A07E9F205CA</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 15:03:05 856 GetUserBalance_start space run: 
+2020-02-12 15:03:05 864 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:03:05 870 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:03:05 877 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:03:06 302 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:03:06 308 balance_start balance: 10000
+2020-02-12 15:03:06 315 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:03:06 330 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"10000","returnTime":"2020-02-12T15:03:06+08:00"}
+2020-02-12 15:03:06 336 GetUserBalance_end res_balance: 10000
+2020-02-12 15:03:06 341 GetUserBalance_end respond_balance: 10000
+2020-02-12 15:03:06 347 GetUserBalance_end ss: {"username":"10bdl0test","balance":10000,"currency":"CNY","errorCode":0}
+2020-02-12 15:03:06 352 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:03:06 357 GetUserBalance_end aa: <amount>10000</amount>
+2020-02-12 15:10:51 170 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 15:10:51 396 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>1BC707C780F7B81B80BDF41C5F942054</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 15:24:29 607 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 15:24:29 824 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>065D4AD9EE8273A15EBBC4ECB88ECE58</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 15:24:45 926 GetUserBalance_start space run: 
+2020-02-12 15:24:45 933 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:24:45 940 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:24:45 946 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:24:46 380 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:24:46 389 balance_start balance: 10000
+2020-02-12 15:24:46 397 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:24:46 415 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"10000","returnTime":"2020-02-12T15:24:46+08:00"}
+2020-02-12 15:24:46 422 GetUserBalance_end res_balance: 10000
+2020-02-12 15:24:46 427 GetUserBalance_end respond_balance: 10000
+2020-02-12 15:24:46 432 GetUserBalance_end ss: {"username":"10bdl0test","balance":10000,"currency":"CNY","errorCode":0}
+2020-02-12 15:24:46 439 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:24:46 444 GetUserBalance_end aa: <amount>10000</amount>
+2020-02-12 15:28:03 561 GetUserBalance_start space run: 
+2020-02-12 15:28:03 570 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:28:03 579 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:28:03 585 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:28:04 011 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:28:04 017 balance_start balance: 10000
+2020-02-12 15:28:04 022 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:28:04 037 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"10000","returnTime":"2020-02-12T15:28:04+08:00"}
+2020-02-12 15:28:04 042 GetUserBalance_end res_balance: 10000
+2020-02-12 15:28:04 049 GetUserBalance_end respond_balance: 10000
+2020-02-12 15:28:04 054 GetUserBalance_end ss: {"username":"10bdl0test","balance":10000,"currency":"CNY","errorCode":0}
+2020-02-12 15:28:04 060 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:28:04 065 GetUserBalance_end aa: <amount>10000</amount>
+2020-02-12 15:30:47 347 GetUserBalance_start space run: 
+2020-02-12 15:30:47 356 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:30:47 363 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:30:47 370 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:30:47 805 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:30:47 812 balance_start balance: 10000
+2020-02-12 15:30:47 820 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:30:47 836 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"10000","returnTime":"2020-02-12T15:30:47+08:00"}
+2020-02-12 15:30:47 841 GetUserBalance_end res_balance: 10000
+2020-02-12 15:30:47 846 GetUserBalance_end respond_balance: 10000
+2020-02-12 15:30:47 852 GetUserBalance_end ss: {"username":"10bdl0test","balance":10000,"currency":"CNY","errorCode":0}
+2020-02-12 15:30:47 857 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:30:47 862 GetUserBalance_end aa: <amount>10000</amount>
+2020-02-12 15:31:09 064 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 15:31:09 287 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>58F6B9F0EEF2F9D28FA7D2AC5084A804</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 15:39:02 388 GetUserBalance_start space run: 
+2020-02-12 15:39:02 398 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:39:02 405 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:39:02 412 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:39:02 835 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:39:02 843 balance_start balance: 10000
+2020-02-12 15:39:02 850 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:39:02 865 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"10000","returnTime":"2020-02-12T15:39:02+08:00"}
+2020-02-12 15:39:02 871 GetUserBalance_end res_balance: 10000
+2020-02-12 15:39:02 876 GetUserBalance_end respond_balance: 10000
+2020-02-12 15:39:02 881 GetUserBalance_end ss: {"username":"10bdl0test","balance":10000,"currency":"CNY","errorCode":0}
+2020-02-12 15:39:02 887 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:39:02 892 GetUserBalance_end aa: <amount>10000</amount>
+2020-02-12 15:43:42 012 GetUserBalance_start space run: 
+2020-02-12 15:43:42 021 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:43:42 026 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:43:42 032 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:43:42 456 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:43:44 495 balance_start balance: 10000
+2020-02-12 15:43:44 509 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:43:44 545 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"10000","returnTime":"2020-02-12T15:43:44+08:00"}
+2020-02-12 15:43:44 555 GetUserBalance_end res_balance: 10000
+2020-02-12 15:43:44 563 GetUserBalance_end respond_balance: 10000
+2020-02-12 15:43:44 570 GetUserBalance_end ss: {"username":"10bdl0test","balance":10000,"currency":"CNY","errorCode":0}
+2020-02-12 15:43:44 575 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:43:44 580 GetUserBalance_end aa: <amount>10000</amount>
+2020-02-12 15:49:38 912 GetUserBalance_start space run: 
+2020-02-12 15:49:38 919 getparams_start data: MDQGx7yYdmYCEr3JM0%2ffW2WpFhjAzQi5VfObxQo%2bCmHIA%2blJx9tqYg%3d%3d
+2020-02-12 15:49:38 924 getparams_end jsondata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:49:38 930 GetUserBalance_start postdata: {"username":"10bdl0test","currency":"CNY"}
+2020-02-12 15:49:39 367 balance_start account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:49:39 376 balance_start balance: 6000
+2020-02-12 15:49:39 382 balance_end account: test, json_data: {"account":"test","agent":"agent09","gamer_name":"SA","backend":"918kiss"}
+2020-02-12 15:49:39 397 GetUserBalance_end res_sa: {"errorCode":["1","成功"],"balance":"6000","returnTime":"2020-02-12T15:49:39+08:00"}
+2020-02-12 15:49:39 402 GetUserBalance_end res_balance: 6000
+2020-02-12 15:49:39 407 GetUserBalance_end respond_balance: 6000
+2020-02-12 15:49:39 412 GetUserBalance_end ss: {"username":"10bdl0test","balance":6000,"currency":"CNY","errorCode":0}
+2020-02-12 15:49:39 418 GetUserBalance_end account: 10bdl0test
+2020-02-12 15:49:39 423 GetUserBalance_end aa: <amount>6000</amount>
+2020-02-12 15:53:10 292 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 15:53:10 565 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>B18A1C8776FB8CE32C28CFF6CD44A105</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 15:54:21 082 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 15:54:21 323 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>D79E78B728C81455640D730F9C89BAB0</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 16:14:27 575 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 16:14:27 825 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>DB854E1872DC547683673C30B7CCA392</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 16:16:12 851 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 16:16:13 083 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>01F6EAAC1133CC47E5D80D8014F599D7</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 16:41:01 738 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 16:41:02 020 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>11D4237EA456AEC5D6E86A78AEFDB7D2</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 16:43:51 143 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 16:43:51 345 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>52A80ED928EB214C55BB0619004C3A8E</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 16:59:47 516 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 16:59:47 765 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>42D059BF5B6879DC3A86E313FC5E628A</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 17:07:57 959 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 17:07:58 194 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>805177F5FB79C77BD2250FB61E19AF53</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 17:16:12 544 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 17:16:12 915 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>B6393E959E3B89338A47A6CA3FD38CD3</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 18:00:24 000 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 18:06:30 914 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 18:06:31 145 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>2D1D85E14B17098DB635D5DA1C7D6155</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 18:08:09 574 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 18:08:09 839 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>44D4F43D1DE68AF04D347C253F7DAE58</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>
+2020-02-12 18:22:18 023 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-12 18:22:18 273 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>D9FDCFBFFACC03A8868CB2821410C8C5</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>

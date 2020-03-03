@@ -1,0 +1,8 @@
+2020-02-14 10:12:44 067 launch_start jsondata: {"account":"test","agent_id":"1","currency":"CNY","game_id":"bac"}
+2020-02-14 10:12:44 399 launch_end result: <?xml version="1.0" encoding="utf-8"?>
+<LoginRequestResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorMsgId>0</ErrorMsgId>
+  <ErrorMsg>Success</ErrorMsg>
+  <Token>07441335B674A84CBA3EA12561C02F3C</Token>
+  <DisplayName>10bdl0test@bdl</DisplayName>
+</LoginRequestResponse>

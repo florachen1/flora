@@ -1,0 +1,8 @@
+2020-02-13 10:17:08 651 refund_error : 已經被refund [refundmtcode: 4345234534534, 遊戲商: SA]
+2020-02-13 10:24:42 851 balance_error : backend 找不到 [jsondata: {"account":"test","agent":"1","gamer_name":"SA"}]
+2020-02-13 10:24:44 657 balance_error : backend 找不到 [jsondata: {"account":"test","agent":"1","gamer_name":"SA"}]
+2020-02-13 10:24:46 349 balance_error : backend 找不到 [jsondata: {"account":"test","agent":"1","gamer_name":"SA"}]
+2020-02-13 10:24:48 204 balance_error : backend 找不到 [jsondata: {"account":"test","agent":"1","gamer_name":"SA"}]
+2020-02-13 10:24:49 681 balance_error : backend 找不到 [jsondata: {"account":"test","agent":"1","gamer_name":"SA"}]
+2020-02-13 10:24:51 217 balance_error : backend 找不到 [jsondata: {"account":"test","agent":"1","gamer_name":"SA"}]
+2020-02-13 13:22:43 785 refund_error : 已經被refund [refundmtcode: 4345234534534, 遊戲商: SA]
