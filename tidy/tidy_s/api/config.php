@@ -31,5 +31,5 @@
     // $_CGS_API_SETTING['errorCode']['dbinserterror'] = 110; //  db 寫入交易紀錄失敗
 
     // writelog
-    $_TIDYS_API_SETTING['writelog_url'] = "http://localhost/sa/sa_s/api/writelog.php";
+    $_TIDYS_API_SETTING['writelog_url'] = "http://localhost/tidy/tidy_s/api/writelog.php";
 ?>

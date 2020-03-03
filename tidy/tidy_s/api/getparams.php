@@ -11,10 +11,9 @@
         require_once("../../../../ali88_api/module/outputlog.php");
 
         // 插入log計算時間
-        // if($_TIDYS_LOG['tidys_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_start jsondata: ".$jsondata, $_TIDYS_LOG['dir'].getlogdate().$_TIDYS_LOG['tidys_log']);
+        if($_TIDYS_LOG['tidys_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_start data: ".$data, "../../".$_TIDYS_LOG['dir'].getlogdate().$_TIDYS_LOG['tidys_log']);
         
         $secretKey = "fe63b0b8dcb16e71beb88dc923a9a381";
-        // $token = $data['token'];
 
         try
         {

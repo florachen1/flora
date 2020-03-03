@@ -15,12 +15,12 @@
     // require_once("../../../kernel/promo/createaccount.php");
 
     require_once("db/db_config.php");
-    require_once("../../ali88_api/db/dbclass.php");
-    require_once("../../ali88_api/module/checkparamsexists.php");
+    require_once("../../../../db/dbclass.php");
+    require_once("../../../../module/checkparamsexists.php");
     // require_once("redis/redis_config.php");
     // require_once("../../../../redis/redisclass.php");
     // require_once("../../../../module/sendget.php");
-    require_once("../../ali88_api/module/outputlog.php");
+    require_once("../../../../module/outputlog.php");
     require_once("log/log_config.php");
     // require_once("default_config.php");
     require_once("api/user/outside/info.php");
@@ -111,7 +111,11 @@
         $db->close_connect();
         
         // 將幣別從字母代碼轉換為數字代碼
-        $currency = changecurrency($post_params["currency"]);
+        // 組合傳入 function changecurrency 參數
+        $changecurrency['action']   = "launch";
+        $changecurrency['currency'] = $post_params["currency"];
+        $changecurrencydata = json_encode($changecurrency, JSON_UNESCAPED_UNICODE);
+        $currency = changecurrency($changecurrencydata);
         
         // 組合傳入 function info 參數 查詢用戶是否存在
         $info['username'] = $post_params["agent_id"]."_".$post_params["account"];

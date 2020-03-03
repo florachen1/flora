@@ -1,17 +1,17 @@
 <?php
-    require_once("../../../ali88_api/db/dbclass.php");
-    require_once("../db/db_config.php");
-    require_once("../log/log_config.php");
-    require_once("../../../ali88_api/module/outputlog.php");
-    require_once("config.php");
+    require_once("../../../../../../db/dbclass.php");
+    require_once("../../db/db_config.php");
+    require_once("../../log/log_config.php");
+    require_once("../../../../../../module/outputlog.php");
+    require_once("../config.php");
 
-    if( isset($_POST['table']) )      $post_params["table"]      = $_POST["table"];
-    if( isset($_POST['agent']) )      $post_params["agent"]      = $_POST["agent"];
-    if( isset($_POST['txnid']) )      $post_params["txnid"]      = $_POST["txnid"];
-    if( isset($_POST['gameid']) )     $post_params["gameid"]     = $_POST["gameid"];
-    if( isset($_POST['timestamp']) )  $post_params["timestamp"]  = $_POST["timestamp"];
-    if( isset($_POST['amount_str']) ) $post_params["amount_str"] = $_POST["amount_str"];
-    if( isset($_POST['json_data']) )  $post_params["json_data"]  = $_POST["json_data"];
+    if( isset($_POST['table']) )            $post_params["table"]            = $_POST["table"];
+    if( isset($_POST['agent']) )            $post_params["agent"]            = $_POST["agent"];
+    if( isset($_POST['transaction_uuid']) ) $post_params["transaction_uuid"] = $_POST["transaction_uuid"];
+    if( isset($_POST['gameid']) )           $post_params["gameid"]           = $_POST["gameid"];
+    if( isset($_POST['timestamp']) )        $post_params["timestamp"]        = $_POST["timestamp"];
+    if( isset($_POST['amount_str']) )       $post_params["amount_str"]       = $_POST["amount_str"];
+    if( isset($_POST['json_data']) )        $post_params["json_data"]        = $_POST["json_data"];
     $jsondata = json_encode($post_params,JSON_UNESCAPED_UNICODE);
 
     $db = new DB_CLASS();
@@ -48,19 +48,19 @@
         {
             $res_data['errorCode'] = $_SAS_API_SETTING['errorCode']['dbinserterror']; //  db 寫入交易紀錄失敗
             // error log
-            if($_SAS_LOG['sas_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_error : db insert 失敗 [jsondata: ".$jsondata.", changejson: ".$changejson."]", "../".$_SAS_LOG['dir'].getlogdate().$_SAS_LOG['sas_error_log']);      
+            if($_TIDYS_LOG['tidys_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_error : db insert 失敗 [jsondata: ".$jsondata.", changejson: ".$changejson."]", "../../".$_TIDYS_LOG['dir'].getlogdate().$_TIDYS_LOG['tidys_error_log']);      
         } 
     }
     else
     {
-        $sql_str = 'INSERT INTO '.$post_params['table'].' (`agent_name`,`unique_key`,`json_data`) VALUES ("'.$post_params["agent"].'","'.$post_params["txnid"].'",'.$post_params["json_data"].')';
+        $sql_str = 'INSERT INTO '.$post_params['table'].' (`agent_name`,`unique_key`,`json_data`) VALUES ("'.$post_params["agent"].'","'.$post_params["transaction_uuid"].'",'.$post_params["json_data"].')';
         $result_query = $db->query($sql_str);
         $insert_id = $db->get_insert_id();
         if ($insert_id == 0)
         {
-            $res_data['errorCode'] = $_SAS_API_SETTING['errorCode']['dbinserterror']; //  系統錯誤
+            $res_data['errorCode'] = $_TIDYS_API_SETTING['errorCode']['dbinserterror']; //  系統錯誤
             // error log
-            if($_SAS_LOG['sas_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_error : db insert 失敗 [jsondata: ".$jsondata."]", "../".$_SAS_LOG['dir'].getlogdate().$_SAS_LOG['sas_error_log']);      
+            if($_TIDYS_LOG['tidys_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_error : db insert 失敗 [jsondata: ".$jsondata."]", "../../".$_TIDYS_LOG['dir'].getlogdate().$_TIDYS_LOG['tidys_error_log']);      
         }
     }
     $db->close_connect();
