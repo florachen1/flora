@@ -18,14 +18,14 @@
     // require_once("getparams.php");
 
     require_once("../../db/db_config.php");
-    require_once("../../../../ali88_api/db/dbclass.php");
-    require_once("../../../../ali88_api/module/checkparamsexists.php");
+    require_once("../../../../../../ali88_api/db/dbclass.php");
+    require_once("../../../../../../ali88_api/module/checkparamsexists.php");
     // require_once("../../../../../module/getheader.php");
     // require_once("../../../../../module/snowflake.php");
     // require_once("../redis/redis_config.php");
     // require_once("../../../../../redis/redisclass.php");
     require_once("../../mid_brdg/balance.php");
-    require_once("../../../../ali88_api/module/sendget.php");
+    require_once("../../../../../../ali88_api/module/sendget.php");
     require_once("../config.php");
     // require_once("../../desclass.php");
     require_once("../getparams.php");
