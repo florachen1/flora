@@ -1,6 +1,6 @@
 <?php
     require_once("../../log/log_config.php");
-    require_once("../../../../ali88_api/module/outputlog.php");
+    require_once("../../../../../../ali88_api/module/outputlog.php");
     if($_TIDYS_LOG['tidys_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_start space run: ", "../../".$_TIDYS_LOG['dir'].getlogdate().$_TIDYS_LOG['tidys_log']);
 
     // 呼叫這支 API 進行玩家餘額的查詢
