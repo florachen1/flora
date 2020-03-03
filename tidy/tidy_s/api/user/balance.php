@@ -1,6 +1,6 @@
 <?php
     require_once("../../log/log_config.php");
-    require_once("../../../../../../ali88_api/module/outputlog.php");
+    require_once("../../../../../../module/outputlog.php");
     if($_TIDYS_LOG['tidys_debug'] == TRUE)  outputlog(basename(__FILE__, '.php')."_start space run: ", "../../".$_TIDYS_LOG['dir'].getlogdate().$_TIDYS_LOG['tidys_log']);
 
     // 呼叫這支 API 進行玩家餘額的查詢
@@ -18,14 +18,14 @@
     // require_once("getparams.php");
 
     require_once("../../db/db_config.php");
-    require_once("../../../../../../ali88_api/db/dbclass.php");
-    require_once("../../../../../../ali88_api/module/checkparamsexists.php");
+    require_once("../../../../../../db/dbclass.php");
+    require_once("../../../../../../module/checkparamsexists.php");
     // require_once("../../../../../module/getheader.php");
     // require_once("../../../../../module/snowflake.php");
     // require_once("../redis/redis_config.php");
     // require_once("../../../../../redis/redisclass.php");
     require_once("../../mid_brdg/balance.php");
-    require_once("../../../../../../ali88_api/module/sendget.php");
+    require_once("../../../../../../module/sendget.php");
     require_once("../config.php");
     // require_once("../../desclass.php");
     require_once("../getparams.php");
